@@ -2,6 +2,11 @@ div.ui.divider h2 {
   font-family: montserrat;
 }
 
+#primary-landing img {
+  max-width: 40px;
+  margin-right: 10px;
+}
+
 .ui.button {
   margin-bottom: 20px;
 }

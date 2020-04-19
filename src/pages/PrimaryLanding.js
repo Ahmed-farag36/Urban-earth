@@ -1,5 +1,5 @@
 import React from "react";
-import { Divider, Header, Icon, Button, Image } from "semantic-ui-react";
+import { Divider, Header, Icon, Button } from "semantic-ui-react";
 
 // COMPONENTS
 import Slider from "../components/Slider";
@@ -11,7 +11,7 @@ export default () => (
   <div id="primary-landing">
     <Divider horizontal>
       <Header as="h2">
-        <Image src="/images/icons8-home-100.png" alt="" size="small" spaced />
+        <img src="/images/icons8-home-100.png" alt="" />
         Units
       </Header>
     </Divider>
@@ -19,12 +19,7 @@ export default () => (
 
     <Divider horizontal>
       <Header as="h2">
-        <Image
-          src="/images/icons8-building-100.png"
-          alt=""
-          size="small"
-          spaced
-        />
+        <img src="/images/icons8-building-100.png" alt="" />
         Buildings
       </Header>
     </Divider>
@@ -32,7 +27,7 @@ export default () => (
 
     <Divider horizontal>
       <Header as="h2">
-        <Image src="/images/icons8-city-100.png" alt="" size="small" spaced />
+        <img src="/images/icons8-city-100.png" alt="" />
         Neighborhoods
       </Header>
     </Divider>

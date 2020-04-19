@@ -1,0 +1,22 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 10px;
+  background-color: #42428b;
+}
+
+img {
+  width: 2%;
+}
+
+span {
+  color: white;
+  margin-left: 10px;
+  font-family: roboto;
+  letter-spacing: 1.3px;
+  font-size: 14px;
+}

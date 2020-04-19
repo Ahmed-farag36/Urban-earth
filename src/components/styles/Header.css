@@ -1,0 +1,24 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #42428b;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+}
+
+li {
+  cursor: pointer;
+  margin: 0 1px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+li img {
+  width: 70%;
+}

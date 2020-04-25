@@ -9,11 +9,11 @@ footer {
   background-color: #42428b;
 }
 
-img {
-  width: 2%;
+footer img {
+  width: 20px;
 }
 
-span {
+footer span {
   color: white;
   margin-left: 10px;
   font-family: roboto;

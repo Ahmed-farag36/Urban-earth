@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Icon, Card } from "semantic-ui-react";
 
 import "./styles/Slider.css";
@@ -6,7 +7,7 @@ import "./styles/Slider.css";
 export default () => (
   <div className="slider">
     <Icon name="chevron left" size="large" />
-    <Card.Group centered items={homes} />
+    <Card.Group centered items={homes} as={Link} to="/secondary" />
     <Icon name="chevron right" size="large" />
   </div>
 );

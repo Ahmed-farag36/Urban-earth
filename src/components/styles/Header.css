@@ -5,7 +5,7 @@ header {
   background-color: #42428b;
 }
 
-ul {
+header ul {
   display: flex;
   justify-content: center;
   margin: 0;
@@ -13,12 +13,17 @@ ul {
   list-style: none;
 }
 
-li {
+header li {
   cursor: pointer;
   margin: 0 1px;
+  padding-top: 5px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-li img {
+header li img {
   width: 70%;
+}
+
+header li.active {
+  background-color: #6262b9;
 }

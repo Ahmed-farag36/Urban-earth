@@ -1,0 +1,16 @@
+#new-location {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+#new-location h2 {
+  font-family: montserrat;
+}
+
+#new-location h3 {
+  text-align: left;
+}
+
+#new-location .ui.button {
+  margin-bottom: 0;
+}

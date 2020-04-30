@@ -1,5 +1,6 @@
 import React from "react";
 import { Divider, Header, Icon, Button } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 
 // COMPONENTS
 import Slider from "../components/Slider";
@@ -33,7 +34,7 @@ export default () => (
     </Divider>
     <Slider />
 
-    <Button icon labelPosition="left" primary>
+    <Button as={Link} to="/new-location" icon labelPosition="left" primary>
       Add New Location
       <Icon name="plus" />
     </Button>

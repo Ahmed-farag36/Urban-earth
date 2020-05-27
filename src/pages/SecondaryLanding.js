@@ -1,48 +1,19 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { Image, Header } from "semantic-ui-react";
+// External libraries
+import React from "react";
 
-// STYLES
+// Components
+import SubMenu from "../components/SubMenu";
+
+// Styles
 import "./styles/SecondaryLanding.css";
 
-export default () => {
-  const [selectedPanel, setSelectedPanel] = useState("");
-
+/* 
+  The page which appear after current user select a unit to manage
+*/
+export default function SecondaryLanding() {
   return (
-    <div id="sub-menu">
-      <Link to="/">
-        <Header as="h2" content="Unit title" subheader="category" />
-      </Link>
-      <div className="icons">
-        <Image
-          src={`/images/icons8-speed-100${
-            selectedPanel === "speed" ? "-2" : ""
-          }.png`}
-          alt=""
-          onClick={() => setSelectedPanel("speed")}
-        />
-        <Image
-          src={`/images/icons8-conference-100${
-            selectedPanel === "conference" ? "-2" : ""
-          }.png`}
-          alt=""
-          onClick={() => setSelectedPanel("conference")}
-        />
-        <Image
-          src={`/images/icons8-combo-chart-100${
-            selectedPanel === "combo-chart" ? "-2" : ""
-          }.png`}
-          alt=""
-          onClick={() => setSelectedPanel("combo-chart")}
-        />
-        <Image
-          src={`/images/icons8-idea-100${
-            selectedPanel === "idea" ? "-2" : "-grey"
-          }.png`}
-          alt=""
-          onClick={() => setSelectedPanel("idea")}
-        />
-      </div>
+    <div className="secondary">
+      <SubMenu />
     </div>
   );
-};
+}

@@ -1,3 +1,9 @@
+// External libraries
 import React from "react";
 
-export default () => <></>;
+/* 
+  A temporary page for uncompleted pages
+*/
+export default function EmptyPage() {
+  return <h1>Under construction :)</h1>;
+}

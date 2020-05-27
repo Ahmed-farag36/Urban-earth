@@ -1,9 +1,13 @@
+// External libraries
 import React from "react";
 import { Form, Header } from "semantic-ui-react";
 
-// STYLES
+// Styles
 import "./styles/newLocation.css";
 
+/*
+  Step one of adding new location multi-step form
+*/
 export default function NewLocation({ input, handleChange, navigation }) {
   const { country, state, city, district, street, buildingNo } = input;
   const { next } = navigation;

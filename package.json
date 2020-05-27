@@ -1,17 +1,20 @@
 {
   "name": "urbanearth",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "An app to help urban residents monitor and manage their units and discuss all urban's issues and even upgrade it",
+  "keywords": ["urban", "earth", "smart", "house", "environment"],
   "main": "src/index.js",
   "dependencies": {
+    "@twilio-labs/react-chat": "1.0.1-alpha.4",
+    "babel-runtime": "6.26.0",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-hooks-helper": "^1.6.0",
     "react-router-dom": "5.1.2",
     "react-scripts": "3.0.1",
     "semantic-ui-css": "2.4.1",
-    "semantic-ui-react": "0.88.2"
+    "semantic-ui-react": "0.88.2",
+    "twilio-chat": "3.3.7"
   },
   "devDependencies": {
     "typescript": "3.8.3"

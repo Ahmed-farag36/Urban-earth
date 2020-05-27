@@ -1,0 +1,10 @@
+#library-main .ui.dropdown {
+  margin: 5px 15px;
+}
+
+#library-main section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}

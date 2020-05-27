@@ -1,9 +1,13 @@
+// External libraries
 import React from "react";
 import { Form, Header } from "semantic-ui-react";
 
-// STYLES
+// Styles
 import "./styles/locationDetails.css";
 
+/*
+  Step two of adding new location multi-step form
+*/
 export default function LocationDetails({ input, handleChange, navigation }) {
   const {
     publicName,

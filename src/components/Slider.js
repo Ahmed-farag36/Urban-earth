@@ -1,17 +1,12 @@
+// External libraries
 import React from "react";
 import { Link } from "react-router-dom";
 import { Icon, Card } from "semantic-ui-react";
 
+// Styles
 import "./styles/Slider.css";
 
-export default () => (
-  <div className="slider">
-    <Icon name="chevron left" size="large" />
-    <Card.Group centered items={homes} as={Link} to="/secondary" />
-    <Icon name="chevron right" size="large" />
-  </div>
-);
-
+// Temp Global Variables
 const homes = [
   {
     header: "Building Title 1",
@@ -24,3 +19,16 @@ const homes = [
     meta: "Building Location"
   }
 ];
+
+/*
+  Component responsible for displaying each unit's slider (for homes, buildings, neighborhoods) in primary landing page 
+*/
+export default function Slider() {
+  return (
+    <div className="slider">
+      <Icon name="chevron left" size="large" />
+      <Card.Group centered items={homes} as={Link} to="/secondary" />
+      <Icon name="chevron right" size="large" />
+    </div>
+  );
+}

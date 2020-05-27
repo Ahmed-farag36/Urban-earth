@@ -1,0 +1,8 @@
+#custom-dropdown-item {
+  display: flex;
+  align-items: center;
+}
+
+#custom-dropdown-item span {
+  margin-left: 5px;
+}

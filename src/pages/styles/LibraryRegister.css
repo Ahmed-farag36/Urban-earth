@@ -1,0 +1,10 @@
+#library-register section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+
+#library-register .ui.medium.header {
+  opacity: 0.25;
+}

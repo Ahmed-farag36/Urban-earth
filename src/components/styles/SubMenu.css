@@ -1,0 +1,32 @@
+#sub-menu {
+  position: relative;
+  border: 1px solid #bbb;
+  border-top: 0;
+  padding: 15px 0 30px;
+  margin: 0 20px 40px;
+  border-radius: 0 0 50px 50px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#sub-menu h2 {
+  font-family: montserrat;
+}
+
+#sub-menu .icons {
+  position: absolute;
+  top: 58px;
+  left: calc((100vw - 360px - 40px) / 2);
+  display: flex;
+}
+
+#sub-menu svg {
+  width: 70px;
+  height: 70px;
+  border: 2px solid #ececec;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 0 10px;
+  background-color: white;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}

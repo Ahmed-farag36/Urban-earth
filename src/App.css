@@ -9,3 +9,11 @@ body {
   font-family: roboto, sans-serif;
   text-align: center;
 }
+
+main {
+  background-image: url(/images/city2.png);
+  background-position: bottom;
+  background-size: 60vh;
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 140px);
+}

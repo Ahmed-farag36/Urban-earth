@@ -1,16 +1,20 @@
+// External libraries
 import React from "react";
 import { useStep } from "react-hooks-helper";
 
-// COMPONENETS
+// Components
 import NewLocation from "./NewLocation";
 import LocationDetails from "./LocationDetails";
 
-// CUSOTM HOOKS
+// Custom Hooks
 import useInput from "../hooks/useInput";
 
-// GLOBAL VARS
+// Global Variables
 const steps = [{ id: "newLocation" }, { id: "locationDetails" }];
 
+/*
+  Adding new location form consists of two child forms
+*/
 export default function MultiStepForm() {
   const { input, handleChange } = useInput();
   const { step, navigation } = useStep({ initialStep: 0, steps });

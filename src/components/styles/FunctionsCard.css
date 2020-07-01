@@ -34,3 +34,23 @@
 #functions-card .ui.image {
   justify-self: left;
 }
+
+#functions-card #start-date {
+  grid-column: 1 / 4;
+  font-weight: bold;
+}
+
+#functions-card #duration {
+  grid-column: 4 / 6;
+  font-size: 0.8rem;
+}
+
+#functions-card .ui.button {
+  margin: 5px;
+}
+
+#functions-card .ui.divider {
+  grid-column: 1 / 7;
+  width: 100%;
+  margin: 0;
+}

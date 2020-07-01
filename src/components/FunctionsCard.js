@@ -1,6 +1,6 @@
 // External libraries
 import React from "react";
-import { Header, Image, Popup } from "semantic-ui-react";
+import { Header, Image, Popup, Button, Divider } from "semantic-ui-react";
 
 // Components
 import {
@@ -17,7 +17,7 @@ import "./styles/FunctionsCard.css";
 /*
   Display card for a function and handle discuss, like and share of this function
 */
-export default function FunctionsCard() {
+export default function FunctionsCard({ listed }) {
   return (
     <div id="functions-card">
       <Header size="large" content="Reduce Electrical Consumption" />
@@ -63,6 +63,14 @@ export default function FunctionsCard() {
         }
         content="Share"
       />
+      {listed && (
+        <>
+          <Divider />
+          <span id="start-date">Start Date: 1/1/2020</span>
+          <span id="duration">Duration: 10 Days</span>
+          <Button icon="shutdown" />
+        </>
+      )}
     </div>
   );
 }

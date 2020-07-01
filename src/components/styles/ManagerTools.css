@@ -1,0 +1,10 @@
+#manager-tools .ui.fixed.menu {
+  justify-content: center;
+}
+
+#manager-tools #tasks-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}

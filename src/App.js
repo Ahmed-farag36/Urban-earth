@@ -14,7 +14,8 @@ import GeneralDiscussionBoard from "./pages/GeneralDiscussionBoard";
 
 // Components
 import Header from "./components/Header";
-import Footer from "./components/Footer";
+import ManagerTools from "./components/ManagerTools";
+// import Footer from "./components/Footer";
 
 // Styles
 import "./App.css";
@@ -33,6 +34,7 @@ export default function App() {
             <Route path="/library/register" component={LibraryRegister} />
             <Route path="/new-location" component={AddNewLocation} />
             <Route path="/secondary" component={SecondaryLanding} />
+            <Route path="/unitId/manager" component={ManagerTools} />
             <Route path="/empty" component={EmptyPage} />
             <Route path="/library" component={LibraryMain} />
             <Route path="/unitId/discussion" component={DiscussionBoard} />
@@ -40,7 +42,7 @@ export default function App() {
             <Route path="/" component={PrimaryLanding} />
           </Switch>
         </main>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </div>
   );

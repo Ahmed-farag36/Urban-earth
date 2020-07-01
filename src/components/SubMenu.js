@@ -25,7 +25,7 @@ export default function SubMenu({ activePanel }) {
         <Link to="/unitId/discussion">
           <Chat3 />
         </Link>
-        <Link to="/empty">
+        <Link to="/unitId/manager">
           <Chart />
         </Link>
         <Link to="/library/register">
